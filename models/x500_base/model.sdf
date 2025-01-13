@@ -289,8 +289,10 @@
         <always_on>1</always_on>
         <update_rate>30</update_rate>
       </sensor>
+      <enable_wind>true</enable_wind>
     </link>
     <link name="rotor_0">
+      <enable_wind>true</enable_wind>
       <gravity>true</gravity>
       <self_collide>false</self_collide>
       <velocity_decay/>
@@ -363,6 +365,7 @@
       </axis>
     </joint>
     <link name="rotor_1">
+      <enable_wind>true</enable_wind>
       <gravity>true</gravity>
       <self_collide>false</self_collide>
       <velocity_decay/>
@@ -435,6 +438,7 @@
       </axis>
     </joint>
     <link name="rotor_2">
+      <enable_wind>true</enable_wind>
       <gravity>true</gravity>
       <self_collide>false</self_collide>
       <velocity_decay/>
@@ -507,6 +511,7 @@
       </axis>
     </joint>
     <link name="rotor_3">
+      <enable_wind>true</enable_wind>
       <gravity>true</gravity>
       <self_collide>false</self_collide>
       <velocity_decay/>
